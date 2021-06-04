@@ -21,7 +21,7 @@ public class Browser extends AppCompatActivity {
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
     private final static int FILECHOOSER_RESULTCODE = 1;
-    String url ="https://shopontelpay.com/public/mobile-view/login";
+    String url ="https://shopontelpay.com/mobile-view/login";
 //    String url ="http://google.com/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
