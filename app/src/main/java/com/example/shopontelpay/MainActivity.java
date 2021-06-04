@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 }
-            }, 5);
+            }, 3000);
         } else {
             Toast toast = Toast.makeText(getApplicationContext(), "NO INTERNET", Toast.LENGTH_SHORT);
             toast.show();
